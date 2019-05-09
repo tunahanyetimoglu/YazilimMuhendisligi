@@ -1,0 +1,5 @@
+mediator.ConcreteColleague1
+mediator.ConcreteColleague2
+mediator.Mediator
+mediator.Colleague
+mediator.ConcreteMediator
