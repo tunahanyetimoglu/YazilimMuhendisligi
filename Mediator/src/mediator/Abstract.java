@@ -38,7 +38,7 @@ class Chatroom extends AbstractChatroom{
     }
 }
 class Participant{
-    private Chatroom _chatroom;
+    private AbstractChatroom _chatroom;
 
     private String _name;
     
@@ -46,7 +46,7 @@ class Participant{
         this._name = name;
     }
     
-      public Chatroom getChatroom() {
+      public AbstractChatroom getChatroom() {
         return _chatroom;
     }
     public void Send(String to, String message)
